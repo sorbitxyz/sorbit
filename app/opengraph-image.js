@@ -60,7 +60,7 @@ export default async function Image() {
               justifyContent: 'space-between',
             }}
           >
-            <div>darkroom.engineering</div>
+            <div>SORBIT</div>
           </div>
           <div
             style={{
@@ -78,10 +78,7 @@ export default async function Image() {
               display: 'flex',
               justifyContent: 'space-between',
             }}
-          >
-            <div>where things get developed</div>
-            <div>hi@darkroom.engineering</div>
-          </div>
+          ></div>
         </div>
       </div>
     ),

@@ -25,7 +25,12 @@ export default function Icon() {
           justifyContent: 'center',
         }}
       >
-        DE
+        <img
+          alt="image"
+          width={40}
+          height={40}
+          src="https://res.cloudinary.com/seunsanyaa/image/upload/v1715544221/Logomark_annwgn.png"
+        />
       </div>
     ),
     // ImageResponse options
