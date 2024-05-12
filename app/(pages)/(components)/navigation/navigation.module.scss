@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // position: fixed;
+  z-index: 2;
+  top: var(--layout-margin);
+  left: var(--layout-margin);
+  right: var(--layout-margin);
+  // background: #18063b;
+  padding: 2rem 5rem;
+  // background: linear-gradient(
+  //   247deg,
+  //   #0c111d 15.53%,
+  //   #0c0625 61.79%,
+  //   #1a0641 91.51%
+  // );
+  @include mobile {
+    padding: 2rem 1.5rem;
+  }
+  .title {
+    display: inline-flex;
+  }
+
+  .list {
+    padding-left: 24px;
+
+    .link {
+      position: relative;
+    }
+
+    .active {
+      &::before {
+        content: '■';
+        position: absolute;
+        left: -16px;
+      }
+    }
+  }
+}

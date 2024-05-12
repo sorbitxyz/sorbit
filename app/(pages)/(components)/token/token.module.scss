@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5rem;
+  background: linear-gradient(180deg, #22183a 0%, #0c111d 100%);
+
+  position: relative;
+  overflow: hidden;
+
+  @include mobile {
+    padding-bottom: 1rem;
+  }
+  .bgimage {
+    position: absolute;
+    top: -25%;
+    z-index: 0;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  @include mobile {
+    justify-content: center;
+    padding-right: 0rem;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    // padding-top: 6.2rem;
+    padding-left: 5rem;
+    z-index: 1;
+    @include mobile {
+      padding-left: 0rem;
+      align-items: center;
+      padding: 2rem 0rem;
+    }
+  }
+
+  .image {
+    width: 35rem;
+    img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

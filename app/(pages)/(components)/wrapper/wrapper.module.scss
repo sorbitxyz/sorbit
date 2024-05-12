@@ -1,0 +1,20 @@
+.wrapper {
+  // background-color: var(--theme-primary);
+  color: var(--theme-secondary);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // background: #18063b;
+  background: linear-gradient(
+    247deg,
+    #0c111d 15.53%,
+    #0c0625 61.79%,
+    #1a0641 91.51%
+  );
+  .main {
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+}

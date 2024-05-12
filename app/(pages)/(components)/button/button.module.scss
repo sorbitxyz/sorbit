@@ -1,0 +1,20 @@
+.button {
+  border-radius: 30rem;
+  border: 1px solid #c0a4ff;
+  // background: #0c111d;
+  box-shadow: 0px 0px 9px 0px #4c2ba1;
+  font-family: 'Inter';
+  font-weight: 600;
+  color: white;
+  font-size: 0.8rem;
+  font-style: normal;
+  line-height: 142.857%;
+
+  padding: 0.5rem 1rem;
+  background: black;
+
+  // background-image: linear-gradient(to right, #0c111d, #c0a4ff);
+
+  // background-image: rgba(255, 255, 255, 1);
+  // background-image: linear-gradient(to top, #c0a4ff 0%, #432e73 0%);
+}

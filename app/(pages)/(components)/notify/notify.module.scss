@@ -1,0 +1,26 @@
+.container {
+  border-radius: var(--radius-full, 9999px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.4rem 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.icon {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 5rem;
+  background: #9e77ed;
+}
+
+.text {
+  color: var(--Colors-Text-text-white, #fff);
+  font-family: Inter;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.857%;
+}

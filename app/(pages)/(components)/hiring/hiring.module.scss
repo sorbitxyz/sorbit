@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 5rem 0rem;
+  padding-bottom: 0rem;
+  background: var(--Colors-Background-bg-primary, #0c111d);
+
+  @include mobile {
+    padding: 2rem 1rem;
+    button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}

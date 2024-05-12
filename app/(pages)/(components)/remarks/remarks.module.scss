@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: var(--radius-4xl, 1.8rem);
+  background: var(--Colors-Background-bg-brand-section, #161b26);
+  overflow: hidden;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .image {
+    width: 25rem;
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+.section {
+  padding: 5rem;
+  background: var(--Colors-Background-bg-primary, #0c111d);
+}
+
+.stars {
+  padding-bottom: 1rem;
+}
+.pager {
+  padding-top: 1.5rem;
+}

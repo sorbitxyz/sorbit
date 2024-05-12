@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 5rem 0rem;
+
+  border-radius: var(--spacing-xl, 1rem);
+  background: var(--Colors-Background-bg-secondary, #161b26);
+
+  @include mobile {
+    padding: 2rem 1.5rem;
+
+    button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .smallImage {
+    width: 6rem;
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+
+    @include mobile {
+      width: 4rem;
+    }
+  }
+}
+.question {
+  padding: 5rem;
+  background: #0d111d;
+
+  @include mobile {
+    padding: 2rem 1rem;
+  }
+}
