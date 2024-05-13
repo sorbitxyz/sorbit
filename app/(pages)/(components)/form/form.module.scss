@@ -14,7 +14,8 @@
   padding: 0.4rem 0.5rem;
   margin-top: 3rem;
   width: 28rem;
-
+  position: relative;
+  z-index: 33773;
   @include mobile {
     width: unset !important;
   }

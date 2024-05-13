@@ -1,8 +1,8 @@
 import s from './button.module.scss'
 
-export function Button({ style, text }) {
+export function Button({ func, style, text }) {
   return (
-    <button className={s.button} style={style}>
+    <button className={s.button} style={style} onClick={func}>
       {text}
     </button>
   )

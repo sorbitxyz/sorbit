@@ -31,6 +31,7 @@
     "@theatre/studio": "^0.7.1",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.3.0",
+    "axios": "^1.6.8",
     "clsx": "^2.1.1",
     "gsap": "^3.12.5",
     "lenis": "^1.0.45",
