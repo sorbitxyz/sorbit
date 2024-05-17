@@ -7,6 +7,7 @@ import { colors, themes } from 'styles/config'
 import 'styles/global.scss'
 import AppData from '../../package.json'
 import { fonts } from '../fonts'
+import 'react-toastify/dist/ReactToastify.css'
 
 const APP_NAME = AppData.name
 const APP_DEFAULT_TITLE = 'Sorbit'

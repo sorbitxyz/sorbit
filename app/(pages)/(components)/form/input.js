@@ -1,7 +1,9 @@
 import axios from 'axios'
 import { useState } from 'react'
+import { ToastContainer, toast } from 'react-toastify'
 import { Button } from '../button'
 import s from './form.module.scss'
+
 export function Input({}) {
   const [value, setValue] = useState('')
   const [success, setSuccess] = useState(false)
@@ -19,19 +21,24 @@ export function Input({}) {
       .then(() => {
         setSuccess(true)
         setValue('')
+        toast("You've signed up!")
       })
       .catch(() => {
         setSuccess(true)
+        toast("You've signed up!")
         setValue('')
       })
       .finally(() => {
         setSuccess(true)
+        toast("You've signed up!")
         setValue('')
       })
   }
 
   return (
     <div className={s.form}>
+      <ToastContainer />
+
       <input
         placeholder={'Email address'}
         value={value}

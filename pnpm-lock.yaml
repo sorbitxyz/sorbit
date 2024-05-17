@@ -86,6 +86,9 @@ dependencies:
   react-responsive-carousel:
     specifier: ^3.2.23
     version: 3.2.23
+  react-toastify:
+    specifier: ^10.0.5
+    version: 10.0.5(react-dom@18.3.1)(react@18.3.1)
   react-use:
     specifier: ^17.5.0
     version: 17.5.0(react-dom@18.3.1)(react@18.3.1)
@@ -6231,6 +6234,17 @@ packages:
       invariant: 2.2.4
       react: 18.3.1
       tslib: 2.6.2
+    dev: false
+
+  /react-toastify@10.0.5(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-mNKt2jBXJg4O7pSdbNUfDdTsK9FIdikfsIE/yUCxbAEXl4HMyJaivrVFcn3Elvt5xvCQYhUZm+hqTIu1UXM3Pw==}
+    peerDependencies:
+      react: '>=18'
+      react-dom: '>=18'
+    dependencies:
+      clsx: 2.1.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
     dev: false
 
   /react-universal-interface@0.6.2(react@18.3.1)(tslib@2.6.2):
