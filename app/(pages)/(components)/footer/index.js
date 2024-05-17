@@ -5,7 +5,11 @@ export function Footer() {
   return (
     <footer className={s.footer}>
       <div className={s.icons}>
-        <Link href="https://darkroom.engineering/" className="link">
+        <Link
+          href="https://x.com/getsorbit?s=21&t=4SC0UHgkmJ-TCqBb-g5gtQ"
+          className="link"
+          target="_blank"
+        >
           <svg
             width="24"
             height="25"
@@ -20,7 +24,11 @@ export function Footer() {
           </svg>
         </Link>
 
-        <Link href="https://darkroom.engineering/" className="link">
+        <Link
+          href="https://x.com/getsorbit?s=21&t=4SC0UHgkmJ-TCqBb-g5gtQ"
+          className="link"
+          target="_blank"
+        >
           <svg
             width="24"
             height="25"
@@ -41,8 +49,9 @@ export function Footer() {
       </div>
       <div>
         <Link
-          href="https://github.com/darkroomengineering/satus/generate"
+          href="https://x.com/getsorbit?s=21&t=4SC0UHgkmJ-TCqBb-g5gtQ"
           className="link"
+          target="_blank"
         >
           <svg
             width="117"

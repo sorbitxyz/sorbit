@@ -1,5 +1,4 @@
 import { ImageResponse } from 'next/og'
-import { themes } from 'styles/config.js'
 import AppData from '../package.json'
 
 export const runtime = 'edge'
@@ -34,8 +33,8 @@ export default async function Image() {
           width: '100%',
           display: 'flex',
           flexDirection: 'column',
-          backgroundColor: themes.red.primary,
-          color: themes.red.secondary,
+          backgroundColor: 'none',
+          color: 'none',
           alignItems: 'center',
           justifyContent: 'center',
           padding: '8px 48px',
@@ -60,7 +59,7 @@ export default async function Image() {
               justifyContent: 'space-between',
             }}
           >
-            <div>SORBIT</div>
+            <img src="https://res.cloudinary.com/seunsanyaa/image/upload/v1715941914/xxuftuicczyae924nvjb.png" />
           </div>
           <div
             style={{
