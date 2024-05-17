@@ -1,5 +1,4 @@
 import { ImageResponse } from 'next/og'
-import { themes } from 'styles/config.js'
 
 // Image metadata
 export const size = {
@@ -16,8 +15,7 @@ export default function Icon() {
       <div
         style={{
           fontSize: 96,
-          background: themes.red.primary,
-          color: themes.red.secondary,
+
           width: '100%',
           height: '100%',
           display: 'flex',

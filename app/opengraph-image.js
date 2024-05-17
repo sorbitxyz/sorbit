@@ -70,7 +70,7 @@ export default async function Image() {
               fontWeight: 400,
             }}
           >
-            {AppData.name}
+            <img src="https://res.cloudinary.com/seunsanyaa/image/upload/v1715941914/xxuftuicczyae924nvjb.png" />
           </div>
           <div
             style={{
